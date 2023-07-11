@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  border: 5px solid black;
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/Indian-Army-4.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_effect {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px solid white; */
+}
+
+.container {
+  /* height: 5rem; */
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.inputs > input {
+  margin: auto 10px;
+  width: 70px;
+  height: 50px;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 5px;
+}
